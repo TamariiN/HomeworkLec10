@@ -1,0 +1,48 @@
+@media screen and (min-width:768px){
+    .container{
+        width: 768px;
+    }
+    .header{
+        margin: 31px 40px 0px 39px;
+    }
+    .mob, .desk{
+        display: none;
+    }
+    .tab{
+        display: block;
+    }
+    .inner1{
+        width: 100%;
+        display: flex;
+        background-image: url(./assets/bgimg.svg);
+        background-repeat: no-repeat;
+        background-position: top -80px right -30px;
+    }
+    .maxim-div{
+        width: 398px;
+        display: flex;
+        align-items: center;
+        margin: 105px 10.95px 186px 39px ;
+    }
+    .tab{
+        margin-right: 30px;
+        margin-top: 0px;
+    }
+    .members{
+        left: 191px;
+    }
+    .hours{
+        top: 324px;
+    }
+    .inner2{
+        width: 768px;
+        margin-top: 49px;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+    .checkout-div{
+        height: 259px;
+        padding: 51px 21px 139px 32px;
+    }
+}

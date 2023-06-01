@@ -1,0 +1,40 @@
+@media screen and (min-width:1440px) {
+    .container{
+        width: 1440px;
+        display: flex;
+        justify-content: center;
+        background-image: url(./assets/bgimg-desk.svg);
+        background-repeat: no-repeat;
+        background-position: top -50px left 910px;
+    }
+    .header, .footer{
+        padding: 24px 165px 0px 165px;
+    }
+    .inner1{
+        justify-content: space-evenly;
+        background-image: none;
+    }
+    .maxim-div{
+        width: 457px;
+        padding-top: 57px;
+        gap: 30px;
+    }
+    .mob , .tab{
+        display: none;
+    }
+    .desk{
+        display: block;
+    }
+    .inner2{
+        grid-template-columns: auto auto auto;
+    }
+    h1{
+        font-size: 56px;
+        line-height: 71px;
+
+    }
+    .pp{
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
