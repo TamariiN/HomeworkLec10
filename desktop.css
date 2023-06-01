@@ -6,6 +6,7 @@
         background-image: url(./assets/bgimg-desk.svg);
         background-repeat: no-repeat;
         background-position: top -50px left 910px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
     }
     .header, .footer{
         padding: 24px 165px 0px 165px;
